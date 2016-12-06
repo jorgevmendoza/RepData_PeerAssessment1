@@ -2,17 +2,16 @@
 title: "Coursera's Reproducible Search: Peer Assessment 1"
 author: "Jorge Mendoza"
 date: "12/5/2016"
-output: html_document
+output: md_document 
 ---
 ----
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+ 
 ##### - Load required libraries to proccess data and Graphs
 
 ```{r}
-  
   library(ggplot2)
   library(imputeMissings)
 ```
@@ -43,7 +42,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```` {r}
 hist(totalSteps
       ,border = "dark blue"
-      , col = "light blue"
+      ,col = "light blue"
       ,main = "Histogram of the total number of steps"
       ,xlab = "total steps") 
 ````
